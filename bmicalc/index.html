@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css"></style>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <p>The BMI Calculator finds the body mass index given weight and height. 
+    
+    <p>Calculate BMI with weight in pounds. Enter height in feet and inches</p>
+    
+    <p>The body mass index or BMI is a ratio of mass to height. It is calculated as kg per square meter or pounds per square inch of height. Numeric BMI values correspond to weight categories including underweight, normal, overweight and obese.
+    
+    <div class="calculator">
+        <p>Enter your height in feet: <input placeholder="Height in feet" class="feet-input inputs"> </p>
+
+        <p>Enter your height in inches:<input placeholder="Height in inches" class="inches-input inputs"> </p>
+
+        <p>Enter your weight in pounds: <input placeholder="Weight in pounds" class="weight-input inputs"> </p>
+    </div>
+
+    <button onclick=" 
+    calculateTotal();
+    " class="computebmi">Compute BMI</button>
+
+    <p class="js-result result"></p>
+
+    <p class="footer">Created by: Jonathan Mari</p>
+
+    <script src="bmicalc.js"></script>
+</body>
+</html>

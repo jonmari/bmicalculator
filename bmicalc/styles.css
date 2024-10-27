@@ -1,0 +1,33 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.computebmi {
+    border: 2px black solid;
+    padding: 10px; 
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.calculator {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.inputs {
+    margin-left: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.result {
+    color: white;
+}
+
+.footer {
+    margin-top: 500px;
+}
